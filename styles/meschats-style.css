@@ -1,0 +1,93 @@
+/* body */
+body{
+    background-color: #c9fff4;
+    color:  #2c3e50;
+}
+
+/* ----------------------------- */
+
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img.cat-img{
+    width: 300px;
+    align-items: flex-start;
+}
+
+header h1.bigtitle{
+    font-family: 'Lato', sans-serif;
+    font-size: 180px;
+    text-transform: uppercase;
+}
+
+/* ----------------------------- */
+
+/* nav */
+.navbar {
+    width: 100%;
+    background-color:  #00a180;
+    overflow: auto;
+    border-radius: 25px;
+    border: 2px solid #00a180;
+    display: grid;
+    
+  }
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .navbar a:hover {
+    background-color: #000;
+  }
+  .active {
+    background-color:  #36cf4f;
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }  
+   /* ----------------------------- */
+  section.mycat {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  /* ----------------------------- */
+
+  div.gallery {
+    padding: 2%;
+    margin: 10px;
+    width: 200px;
+    float: left;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid black;
+    border-radius: 25px;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    font-family: 'Sansita Swashed', cursive;
+    color: #000;
+    font-size: 25px;
+    margin: 5%;
+    padding: 10px;
+    text-align: center;
+    
+  }
